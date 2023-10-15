@@ -3,5 +3,6 @@ def gcd(m,n):
         return m
     else:
         return gcd(n,m%n)
-    
-print(gcd(4,20))
+a=input("Enter The First Number: ")
+b=input("Enter The Second Number: ")
+print("GCD of ",a," , ",b," is ",gcd(a,b))
